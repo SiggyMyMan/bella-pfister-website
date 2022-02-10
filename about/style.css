@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+  min-height: 672px;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0px;
+  font-size: 16px;
+  max-height: 100vh;
+}
+
+/* nav bar */
+.header {
+  font-family: Raleway;
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+  border-top: 8px solid;
+  border-top-color: #9E005D;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  height: 49px;
+  width: 49px;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0px;
+}
+
+.header a.logo img {
+  height: 49px;
+  width: 49px;
+  padding: 0px;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  text-decoration: none;
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: #9E005D;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+
+  .paragraph {
+    position: relative !important;
+  }
+
+  .text {
+    position: absolute !important;
+    top: 50% !important;
+    margin: auto !important;
+    margin-top: -319.5px !important;
+  }
+}
+
+@media screen and (max-height: 684) {
+  .text {
+    position: absolute;
+  }
+  
+}
+
+.paragraph {
+  font-family: Raleway;
+  font-size: 1.5rem;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./bella.png');
+  background-size: cover;
+}
+
+.text {
+  position: absolute;
+  left: 7vw;
+  top: 22vh;
+  background-color: white;
+  height: auto;
+  width: 30vw;
+  min-width: 360px;
+  padding: 15px;
+  overflow: hidden;
+
+}
+
+.text p,
+.text h2 {
+  margin: 15px;
+}
+
+/* footer */
+footer {
+	font-family: Raleway;
+	padding-left: 1vw;
+	padding-right: 1vw;
+
+}
+
+footer p {
+  margin: 0;
+  padding: 10px 0px;
+}
+
+#copyright {
+	text-align: left;
+}
+
+#madewith {
+	text-align: right;
+	float: right;
+}

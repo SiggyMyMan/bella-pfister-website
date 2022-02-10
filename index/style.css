@@ -1,0 +1,246 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+}
+
+/* nav bar */
+.header {
+  font-family: Raleway;
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+  border-top: 8px solid;
+  border-top-color: #9E005D;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  height: 49px;
+  width: 49px;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0px;
+}
+
+.header a.logo img {
+  height: 49px;
+  width: 49px;
+  padding: 0px;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  text-decoration: none;
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: #9E005D;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
+/* body */
+#fullbody {
+	margin: 0px;
+	position: relative;
+}
+
+.image1 {
+	height: 787px;
+	width: 100%;
+	background-image: url("./images/main.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+#main_text {
+	color: white;
+	font-family: Raleway;
+	font-size: 70px;
+	text-shadow: 2px 2px 3px black;
+	text-align: center;
+
+	display: inline-block;
+	width: 60%;
+
+	overflow: auto;
+	padding: 40px;
+
+	border-color: white;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 5px;
+	box-shadow: 2px 0px 3px rgba(0,0,0, 0.5), -2px 0px 3px rgba(0,0,0, 0.5), 0px 2px 3px rgba(0,0,0, 0.5), 0px -2px 3px rgba(0,0,0, 0.5),
+				inset 2px 0px 3px rgba(0,0,0, 0.5), inset -2px 0px 3px rgba(0,0,0, 0.5), inset 0px 2px 3px rgba(0,0,0, 0.5), inset 0px -2px 3px rgba(0,0,0, 0.5);
+	margin: 0px;
+}
+
+@media screen and (min-width: 664px) {
+  #main_text {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 663px) {
+  #main_text {
+    font-size: 50px;
+  }
+}
+
+
+
+/* text section 2 */
+.next {
+	font-family: Raleway;
+
+	height: 1000px;
+	width: 100%;
+	background-image: url("./images/grace.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+	font-family: Raleway;
+	background-color: white;
+	padding: 30px 0px;
+}
+
+.container h2 {
+	font-size: 50px;
+}
+
+.next h2 {
+	text-align: center;
+	font-size: 50px;
+}
+
+.next p {
+	text-align: center;
+	font-size: 25px;
+}
+
+/* text section 3 */
+
+.last {
+  margin: 0px;
+  padding: 20px;
+  width: 100%-30px;
+}
+
+.button {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 4px;
+  width: 300px;
+  margin: 5px;
+
+  text-align: center;
+  font-family: Raleway;
+  font-size: 30px;
+  background-color: #9E005D;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+/* footer */
+footer {
+	font-family: Raleway;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px 0px;
+}
+
+#copyright {
+	text-align: left;
+}
+
+#madewith {
+	text-align: right;
+	float: right;
+}
