@@ -90,14 +90,8 @@ body {
     top: 50% !important;
     margin: auto !important;
     margin-top: -319.5px !important;
+    transform: scale(0.5) !important;
   }
-}
-
-@media screen and (max-height: 684) {
-  .text {
-    position: absolute;
-  }
-  
 }
 
 .paragraph {
