@@ -3,14 +3,13 @@
 
 html {
   scroll-behavior: smooth;
-  min-height: 672px;
 }
 
 body {
   overflow-x: hidden;
   margin: 0px;
   font-size: 16px;
-  max-height: 100vh;
+  width: 100%;
 }
 
 /* nav bar */
@@ -82,38 +81,48 @@ body {
   }
 
   .paragraph {
-    position: relative !important;
+    height: 100% !important;
   }
 
-  .text {
-    position: absolute !important;
-    top: 50% !important;
-    margin: auto !important;
-    margin-top: -319.5px !important;
-    transform: scale(0.5) !important;
+  .text,
+  .text > p {
+    height: calc(100vh - 332px) !important;
   }
+
+  .text > p {
+    overflow-y: scroll;
+  }
+
+
 }
 
 .paragraph {
   font-family: Raleway;
   font-size: 1.5rem;
-  width: 100vw;
-  height: 100vh;
+  width: auto;
+  height: calc(100vh - 136px);
   background-image: url('./bella.png');
   background-size: cover;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: left;
+  align-items: center;
 }
 
 .text {
-  position: absolute;
-  left: 7vw;
-  top: 22vh;
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 600px;
   height: auto;
-  width: 30vw;
-  min-width: 360px;
-  padding: 15px;
-  overflow: hidden;
-
+  background-color: white;
+  margin: 100px;
+  padding: 10px;
 }
 
 .text p,
