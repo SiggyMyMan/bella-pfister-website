@@ -12,6 +12,7 @@ Complete repository for Bella Pfister's [new website.](https://bellapfister.co/)
 - Extremely long load times for all images
 - Wrong email when clicking the email button on contact page
 - Portfolio slideshow fly-in takes too long
+- Broken parallax scroll effect on mobile
 
 #### Planned Ideas (small)
 - Fix all known problems
