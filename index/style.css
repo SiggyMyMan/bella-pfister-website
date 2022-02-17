@@ -90,9 +90,9 @@ html {
 }
 
 .image1 {
-	height: 787px;
+	height: 500px;
 	width: 100%;
-	background-image: url("./images/main.png");
+	background-image: url("../portfolio/images/main.png");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -140,9 +140,9 @@ html {
 .next {
 	font-family: Raleway;
 
-	height: 1000px;
+	height: 757px;
 	width: 100%;
-	background-image: url("./images/grace.jpg");
+	background-image: url("../portfolio/images-compressed/flower2.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
