@@ -8,11 +8,11 @@ Complete repository for Bella Pfister's [new website.](https://bellapfister.co/)
 - Complete about page featuring a simple text box to talk all about Bella.
 
 #### Known Problems
-- (Somewhat) broken footer on 3/4 pages
-- Extremely long load times for all images
+- ~~(Somewhat) broken footer on 3/4 pages~~
+- Extremely long load times for all images (Somewhat fixed)
 - Wrong email when clicking the email button on contact page
 - Portfolio slideshow fly-in takes too long
-- Broken parallax scroll effect on mobile
+- ~~Broken parallax scroll effect on mobile~~
 
 #### Planned Ideas (small)
 - Fix all known problems
@@ -21,11 +21,11 @@ Complete repository for Bella Pfister's [new website.](https://bellapfister.co/)
 - Redirect bellapfister.com to bellapfister.co
 
 #### Planned Ideas (big)
+- [WIP] Add built in caching and image compression (?)
+- [WIP] Enable ability to upload images directly from the website
 - Completely rebuild the home page
 - Redesign contact page (?)
-- Add built in caching and image compression (?)
 - Add videography section
 - Do more with the about page
-- Enable ability to upload images directly from the website
 - Add ticketing/queries to connect page (?)
 - [DELAYED] Make bellapfister.com the main domain and bellapfister.co a redirect
