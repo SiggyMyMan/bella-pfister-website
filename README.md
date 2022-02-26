@@ -10,15 +10,15 @@ Complete repository for Bella Pfister's [new website.](https://bellapfister.co/)
 #### Known Problems
 - ~~(Somewhat) broken footer on 3/4 pages~~
 - Extremely long load times for all images (Somewhat fixed)
-- Wrong email when clicking the email button on contact page
-- Portfolio slideshow fly-in takes too long
+- ~~Wrong email when clicking the email button on contact page~~
+- ~~Portfolio slideshow fly-in takes too long~~
 - ~~Broken parallax scroll effect on mobile~~
 
 #### Planned Ideas (small)
 - Fix all known problems
-- Change "Contact" to "Connect"
-- Add pinterest to connect page
-- Redirect bellapfister.com to bellapfister.co
+- ~~Change "Contact" to "Connect"~~
+- ~~Add pinterest to connect page~~
+- ~~Redirect bellapfister.com to bellapfister.co~~
 
 #### Planned Ideas (big)
 - [WIP] Add built in caching and image compression (?)
