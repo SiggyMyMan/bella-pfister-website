@@ -1,0 +1,4 @@
+portfolio.html - lazy loading
+portfolio css - fixed back to top button merging with footer
+portfolio script.js - faster fly in transition
+index css - added padding to h2 and paragraph text

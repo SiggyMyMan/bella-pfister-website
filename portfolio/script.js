@@ -215,7 +215,7 @@ const waitForImages = () => {
 	const loaderEl = document.querySelector(".loader span");
 
 	gsap.set(cardsContainerEl.children, {
-		"--card-translateY-offset": "100vh",
+		"--card-translateY-offset": "0vh",
 	});
 	gsap.set(cardInfosContainerEl.querySelector(".current--info").querySelectorAll(".text"), {
 		translateY: "40px",
@@ -273,3 +273,4 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
